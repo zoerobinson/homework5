@@ -223,7 +223,8 @@ header{
   }
 
   .pricing{
-    align-self:top;
+    display: flex
+    vertical-align: text-top;
   }
   .gallery, #gallery{
     display:none;
