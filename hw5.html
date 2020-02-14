@@ -2,15 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="images/logo_icon.png"/>
-
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:200&display=swap" rel="stylesheet">
     <title>Super Slick Co.</title>
   </head>
   <body>
     <a class = "skip" href="#skip">Skip to Main Content</a>
-    <div class="nav_img">
+    <header>
       <img src="images/logo.png" alt="logo" id = "logo">
       <nav>
         <ul class="nav_links">
@@ -18,18 +19,15 @@
           <li class="nav_item"><a href="#pricing">Pricing</a></li>
           <li class="nav_item"><a href="#gallery">Gallery</a></li>
         </ul>
-      </nav>
-    </div>
-    <main class="about" id="skip">
-<!--     <img src="images/logo.png" alt="logo" id="logo">
- -->    <h1>Super Slick Co.</h1>
+    </nav>
+  </header>
+  <main class="about" id="skip">
+    <h1>Super Slick Co.</h1>
     <p>We're Super Slick Co. and we like to make all your stuff look like a million bucks. How? Through the power of creativity and trendiness! We sell out so you don't have to.</p>
-    </div>
 
-    <h2>Pricing</h2>
-    <a id="pricing"></a>
+    <h2 id = "pricing">Pricing</h2>
       <div class="pricing">
-        <div id="low" class="card">
+        <div class="card">
           <header><h3>$20</h3></header>
           <ul>
             <li>"Pretty Cool" package</li>
@@ -38,7 +36,7 @@
           </ul>
           <button>Buy</button>
         </div>
-        <div id="mid" class="card card_big">
+        <div class="card card_big">
           <header><h3>$35</h3></header>
           <ul>
             <li>"Very Cool" package</li>
@@ -47,7 +45,7 @@
           </ul>
           <button>Buy</button>
         </div>
-        <div id="high" class="card">
+        <div class="card">
           <header><h3>$50</h3></header>
           <ul>
             <li>"Ultra Cool" package</li>
@@ -56,9 +54,9 @@
           </ul>
           <button>Buy</button>
         </div>
+      </div>
 
-      <h2>Gallery</h2>
-      <a id="gallery"></a>
+      <h2 id = "gallery">Gallery</h2>
         <div class="gallery"> 
           <img id="image1" src="images/sample.jpg" alt="" />
           <img id="image2" src="images/sample.jpg" alt="" />
@@ -66,7 +64,7 @@
           <img id="image4" src="images/sample.jpg" alt="" />
           <img id="image5" src="images/sample.jpg" alt="" />
         </div>
-  </main>
+      </main>
 
     <footer>
       <p>University of Michigan School of Information <br/>
